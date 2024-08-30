@@ -1,10 +1,13 @@
-class itvedant:
+# Single Level Inheritance
+# Single -Level Inheritance enables a derived class to inherit characteristics from a single-parent class
+
+class itvedant:   #base class
     def getitv(self):
         self.cname='itvedant'
     def display(self):
         print("class name is:",self.cname)
 
-class branch(itvedant):
+class branch(itvedant):   #derived class
     def getb(self):
         self.br='pimpri'
 
