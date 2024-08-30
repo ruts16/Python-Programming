@@ -1,3 +1,6 @@
+# Multiple Inheritance
+# Multiple inheritance enables one derived class to inherit properties from one or more base class
+
 class dad:
     def getd(self):
         self.dname=input("enter the father name:")
