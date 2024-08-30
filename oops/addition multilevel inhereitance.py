@@ -1,3 +1,5 @@
+# addition in multi-leve inheritance 
+
 class A:
     def geta(self):
         self.a=10
